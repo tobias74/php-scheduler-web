@@ -1,0 +1,9 @@
+[submodule "my-frameworks/tiro-php-profiler"]
+	path = my-frameworks/tiro-php-profiler
+	url = https://github.com/tobias74/tiro-php-profiler.git
+[submodule "my-frameworks/sugarloaf"]
+	path = my-frameworks/sugarloaf
+	url = https://github.com/tobias74/sugarloaf.git
+[submodule "my-frameworks/php-scheduler-service"]
+	path = my-frameworks/php-scheduler-service
+	url = https://github.com/tobias74/php-scheduler-service.git
