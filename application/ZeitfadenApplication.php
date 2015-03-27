@@ -344,7 +344,7 @@ class ZeitfadenApplication
 		
 		$depList = $dm->registerDependencyManagedService(new SL\ManagedSingleton('PhpProfiler','\Tiro\Profiler'));
     
-    $depList = $dm->registerDependencyManagedService(new SL\ManagedSingleton('TaskService', 'TaskService'));
+    $depList = $dm->registerDependencyManagedService(new SL\ManagedSingleton('TaskService', '\PhpSchedulerService\TaskService'));
     //$depList->addDependency('Profiler', new SL\ManagedComponent('PhpProfiler'));
 						
             		
